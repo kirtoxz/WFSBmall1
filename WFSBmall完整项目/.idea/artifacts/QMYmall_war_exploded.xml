@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="QMYmall:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/QMYmall_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="QMYmall/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WFSB_shopping_platform" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-pool2-2.5.0" />
+          <element id="library" level="project" name="commons-collections4-4.1" />
+          <element id="library" level="project" name="commons-dbcp2-2.4.0" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.39-bin" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="WFSBmall/web/Web" />
+      <element id="javaee-facet-resources" facet="WFSB_shopping_platform/web/Web" />
+    </root>
+  </artifact>
+</component>
